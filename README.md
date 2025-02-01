@@ -1,3 +1,11 @@
+# armhf fix
+
+A quick and very, very primitive fix for installing [ddns-updater](https://github.com/qdm12/ddns-updater) on armhf systems (i.e. Raspberry Pi Zero)
+
+To use:
+
+```TODO```
+
 # Lightweight universal DDNS Updater program
 
 Program to keep DNS A and/or AAAA records updated for multiple DNS providers
