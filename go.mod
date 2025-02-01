@@ -1,4 +1,4 @@
-module github.com/qdm12/ddns-updater
+module github.com/FlickDaKobold/ddns-updater-armhf
 
 go 1.23
 
