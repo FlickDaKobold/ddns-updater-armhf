@@ -8,12 +8,12 @@ import (
 	"net/http"
 	"net/netip"
 
-	"github.com/qdm12/ddns-updater/internal/models"
-	"github.com/qdm12/ddns-updater/internal/provider/constants"
-	"github.com/qdm12/ddns-updater/internal/provider/errors"
-	"github.com/qdm12/ddns-updater/internal/provider/headers"
-	"github.com/qdm12/ddns-updater/internal/provider/utils"
-	"github.com/qdm12/ddns-updater/pkg/publicip/ipversion"
+	"github.com/FlickDaKobold/ddns-updater-armhf/internal/models"
+	"github.com/FlickDaKobold/ddns-updater-armhf/internal/provider/constants"
+	"github.com/FlickDaKobold/ddns-updater-armhf/internal/provider/errors"
+	"github.com/FlickDaKobold/ddns-updater-armhf/internal/provider/headers"
+	"github.com/FlickDaKobold/ddns-updater-armhf/internal/provider/utils"
+	"github.com/FlickDaKobold/ddns-updater-armhf/pkg/publicip/ipversion"
 )
 
 type Provider struct {
@@ -149,7 +149,7 @@ func (p *Provider) Update(ctx context.Context, client *http.Client, ip netip.Add
 }
 
 // deleteDefaultConflictingRecordsIfNeeded deletes any default records that would conflict with a new record,
-// see https://github.com/qdm12/ddns-updater/blob/master/docs/porkbun.md#record-creation
+// see https://github.com/FlickDaKobold/ddns-updater-armhf/blob/master/docs/porkbun.md#record-creation
 func (p *Provider) deleteDefaultConflictingRecordsIfNeeded(ctx context.Context, client *http.Client) (err error) {
 	const porkbunParkedDomain = "pixie.porkbun.com"
 	switch p.owner {

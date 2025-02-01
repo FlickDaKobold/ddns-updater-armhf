@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/qdm12/ddns-updater/internal/provider/errors"
+	"github.com/FlickDaKobold/ddns-updater-armhf/internal/provider/errors"
 )
 
 func (p *Provider) getRecordID(ctx context.Context, client *http.Client,

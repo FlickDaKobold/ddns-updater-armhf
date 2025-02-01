@@ -1,6 +1,6 @@
 package constants
 
-import "github.com/qdm12/ddns-updater/internal/models"
+import "github.com/FlickDaKobold/ddns-updater-armhf/internal/models"
 
 // All possible provider values.
 const (

@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/qdm12/ddns-updater/internal/provider/utils"
+	"github.com/FlickDaKobold/ddns-updater-armhf/internal/provider/utils"
 )
 
 func makeErrorMessage(body io.Reader) (message string) {

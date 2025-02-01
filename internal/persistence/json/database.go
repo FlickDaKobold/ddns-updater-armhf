@@ -9,7 +9,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/qdm12/ddns-updater/internal/models"
+	"github.com/FlickDaKobold/ddns-updater-armhf/internal/models"
 )
 
 type Database struct {

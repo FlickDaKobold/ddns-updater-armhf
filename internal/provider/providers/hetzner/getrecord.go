@@ -8,9 +8,9 @@ import (
 	"net/netip"
 	"net/url"
 
-	"github.com/qdm12/ddns-updater/internal/provider/constants"
-	"github.com/qdm12/ddns-updater/internal/provider/errors"
-	"github.com/qdm12/ddns-updater/internal/provider/utils"
+	"github.com/FlickDaKobold/ddns-updater-armhf/internal/provider/constants"
+	"github.com/FlickDaKobold/ddns-updater-armhf/internal/provider/errors"
+	"github.com/FlickDaKobold/ddns-updater-armhf/internal/provider/utils"
 )
 
 // See https://dns.hetzner.com/api-docs#operation/GetZones.

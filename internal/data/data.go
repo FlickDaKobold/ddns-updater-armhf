@@ -4,7 +4,7 @@ import (
 	"context"
 	"sync"
 
-	"github.com/qdm12/ddns-updater/internal/records"
+	"github.com/FlickDaKobold/ddns-updater-armhf/internal/records"
 )
 
 type Database struct {

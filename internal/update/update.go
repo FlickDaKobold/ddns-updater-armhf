@@ -8,9 +8,9 @@ import (
 	"net/netip"
 	"time"
 
-	"github.com/qdm12/ddns-updater/internal/constants"
-	"github.com/qdm12/ddns-updater/internal/models"
-	settingserrors "github.com/qdm12/ddns-updater/internal/provider/errors"
+	"github.com/FlickDaKobold/ddns-updater-armhf/internal/constants"
+	"github.com/FlickDaKobold/ddns-updater-armhf/internal/models"
+	settingserrors "github.com/FlickDaKobold/ddns-updater-armhf/internal/provider/errors"
 )
 
 type Updater struct {

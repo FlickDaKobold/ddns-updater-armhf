@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/qdm12/ddns-updater/internal/provider/headers"
+	"github.com/FlickDaKobold/ddns-updater-armhf/internal/provider/headers"
 )
 
 func newURLValues(accessKeyID string) (values url.Values) {

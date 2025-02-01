@@ -8,11 +8,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/qdm12/ddns-updater/internal/constants"
-	"github.com/qdm12/ddns-updater/internal/healthchecksio"
-	"github.com/qdm12/ddns-updater/internal/models"
-	librecords "github.com/qdm12/ddns-updater/internal/records"
-	"github.com/qdm12/ddns-updater/pkg/publicip/ipversion"
+	"github.com/FlickDaKobold/ddns-updater-armhf/internal/constants"
+	"github.com/FlickDaKobold/ddns-updater-armhf/internal/healthchecksio"
+	"github.com/FlickDaKobold/ddns-updater-armhf/internal/models"
+	librecords "github.com/FlickDaKobold/ddns-updater-armhf/internal/records"
+	"github.com/FlickDaKobold/ddns-updater-armhf/pkg/publicip/ipversion"
 )
 
 type Service struct {

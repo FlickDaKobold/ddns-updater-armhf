@@ -9,7 +9,7 @@ import (
 	"net/netip"
 	"net/url"
 
-	"github.com/qdm12/ddns-updater/internal/provider/errors"
+	"github.com/FlickDaKobold/ddns-updater-armhf/internal/provider/errors"
 )
 
 // https://www.vultr.com/api/#tag/dns/operation/list-dns-domain-records

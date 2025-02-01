@@ -3,7 +3,7 @@ package ionos
 import (
 	"net/http"
 
-	"github.com/qdm12/ddns-updater/internal/provider/headers"
+	"github.com/FlickDaKobold/ddns-updater-armhf/internal/provider/headers"
 )
 
 type apiZone struct {

@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"net/netip"
 
-	"github.com/qdm12/ddns-updater/internal/provider/constants"
+	"github.com/FlickDaKobold/ddns-updater-armhf/internal/provider/constants"
 )
 
 func (p *Provider) getRecordToUpdate(ctx context.Context,

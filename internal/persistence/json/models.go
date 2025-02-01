@@ -3,7 +3,7 @@ package json
 import (
 	"encoding/json"
 
-	"github.com/qdm12/ddns-updater/internal/models"
+	"github.com/FlickDaKobold/ddns-updater-armhf/internal/models"
 )
 
 type dataModel struct {

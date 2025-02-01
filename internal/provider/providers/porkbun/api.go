@@ -8,7 +8,7 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/qdm12/ddns-updater/internal/provider/errors"
+	"github.com/FlickDaKobold/ddns-updater-armhf/internal/provider/errors"
 )
 
 type dnsRecord struct {

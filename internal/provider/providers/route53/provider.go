@@ -11,12 +11,12 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/qdm12/ddns-updater/internal/models"
-	"github.com/qdm12/ddns-updater/internal/provider/constants"
-	"github.com/qdm12/ddns-updater/internal/provider/errors"
-	"github.com/qdm12/ddns-updater/internal/provider/headers"
-	"github.com/qdm12/ddns-updater/internal/provider/utils"
-	"github.com/qdm12/ddns-updater/pkg/publicip/ipversion"
+	"github.com/FlickDaKobold/ddns-updater-armhf/internal/models"
+	"github.com/FlickDaKobold/ddns-updater-armhf/internal/provider/constants"
+	"github.com/FlickDaKobold/ddns-updater-armhf/internal/provider/errors"
+	"github.com/FlickDaKobold/ddns-updater-armhf/internal/provider/headers"
+	"github.com/FlickDaKobold/ddns-updater-armhf/internal/provider/utils"
+	"github.com/FlickDaKobold/ddns-updater-armhf/pkg/publicip/ipversion"
 )
 
 type Provider struct {

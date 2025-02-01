@@ -5,8 +5,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/qdm12/ddns-updater/internal/constants"
-	"github.com/qdm12/ddns-updater/internal/models"
+	"github.com/FlickDaKobold/ddns-updater-armhf/internal/constants"
+	"github.com/FlickDaKobold/ddns-updater-armhf/internal/models"
 )
 
 func (r *Record) HTML(now time.Time) models.HTMLRow {

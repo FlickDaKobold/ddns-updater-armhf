@@ -5,8 +5,8 @@ import (
 	"net/netip"
 	"time"
 
-	"github.com/qdm12/ddns-updater/internal/models"
-	"github.com/qdm12/ddns-updater/pkg/publicip/ipversion"
+	"github.com/FlickDaKobold/ddns-updater-armhf/internal/models"
+	"github.com/FlickDaKobold/ddns-updater-armhf/pkg/publicip/ipversion"
 )
 
 // StoreNewIP stores a new IP address for a certain domain and owner.

@@ -8,8 +8,8 @@ import (
 	"net/http/httptest"
 	"testing"
 
+	"github.com/FlickDaKobold/ddns-updater-armhf/internal/update/mock_update"
 	"github.com/golang/mock/gomock"
-	"github.com/qdm12/ddns-updater/internal/update/mock_update"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

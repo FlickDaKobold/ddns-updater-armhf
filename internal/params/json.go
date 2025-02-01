@@ -10,11 +10,11 @@ import (
 	"os"
 	"strings"
 
-	"github.com/qdm12/ddns-updater/internal/models"
-	"github.com/qdm12/ddns-updater/internal/provider"
-	"github.com/qdm12/ddns-updater/internal/provider/constants"
-	"github.com/qdm12/ddns-updater/internal/provider/utils"
-	"github.com/qdm12/ddns-updater/pkg/publicip/ipversion"
+	"github.com/FlickDaKobold/ddns-updater-armhf/internal/models"
+	"github.com/FlickDaKobold/ddns-updater-armhf/internal/provider"
+	"github.com/FlickDaKobold/ddns-updater-armhf/internal/provider/constants"
+	"github.com/FlickDaKobold/ddns-updater-armhf/internal/provider/utils"
+	"github.com/FlickDaKobold/ddns-updater-armhf/pkg/publicip/ipversion"
 	"golang.org/x/net/publicsuffix"
 )
 

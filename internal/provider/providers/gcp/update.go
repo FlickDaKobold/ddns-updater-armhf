@@ -7,8 +7,8 @@ import (
 	"net/http"
 	"net/netip"
 
-	"github.com/qdm12/ddns-updater/internal/provider/constants"
-	ddnserrors "github.com/qdm12/ddns-updater/internal/provider/errors"
+	"github.com/FlickDaKobold/ddns-updater-armhf/internal/provider/constants"
+	ddnserrors "github.com/FlickDaKobold/ddns-updater-armhf/internal/provider/errors"
 )
 
 func (p *Provider) Update(ctx context.Context, client *http.Client, ip netip.Addr) (newIP netip.Addr, err error) {

@@ -7,7 +7,7 @@ import (
 	"io"
 	"strings"
 
-	"github.com/qdm12/ddns-updater/internal/provider/utils"
+	"github.com/FlickDaKobold/ddns-updater-armhf/internal/provider/utils"
 )
 
 type gcpErrorData struct {

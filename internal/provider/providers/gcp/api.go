@@ -9,8 +9,8 @@ import (
 	"net/netip"
 	"net/url"
 
-	"github.com/qdm12/ddns-updater/internal/provider/errors"
-	"github.com/qdm12/ddns-updater/internal/provider/headers"
+	"github.com/FlickDaKobold/ddns-updater-armhf/internal/provider/errors"
+	"github.com/FlickDaKobold/ddns-updater-armhf/internal/provider/headers"
 )
 
 type recordResourceSet struct {

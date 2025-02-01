@@ -7,9 +7,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/qdm12/ddns-updater/pkg/publicip/dns"
-	"github.com/qdm12/ddns-updater/pkg/publicip/http"
-	"github.com/qdm12/ddns-updater/pkg/publicip/ipversion"
+	"github.com/FlickDaKobold/ddns-updater-armhf/pkg/publicip/dns"
+	"github.com/FlickDaKobold/ddns-updater-armhf/pkg/publicip/http"
+	"github.com/FlickDaKobold/ddns-updater-armhf/pkg/publicip/ipversion"
 	"github.com/qdm12/gosettings"
 	"github.com/qdm12/gosettings/reader"
 	"github.com/qdm12/gosettings/validate"
